@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	// create delete functionality
 	$('span').on('click', function(event) {
-		$(event.target).parent().remove();
+		$(event.target).parent().fadeOut(500, function() {
+			$(this).fadeOut();
+		});
 		event.stopPropagation();
 	});
 });

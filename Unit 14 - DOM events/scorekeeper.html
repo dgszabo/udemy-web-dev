@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scorekeeper</title>
+	<style>
+		.winner {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		<span id="playerOneScore">0</span> to <span id="playerTwoScore">0</span>
+	</h1>
+	<p>
+		Playing to: <span id="playLimit">5</span>
+	</p>
+	<form action="#">
+		<input type="number">
+		<button id="playerOneButton">Player One</button>
+		<button id="playerTwoButton">Player Two</button>
+		<button id="reset">Reset</button>
+	</form>
+	<script src="scorekeeper.js"></script>
+</body>
+</html>

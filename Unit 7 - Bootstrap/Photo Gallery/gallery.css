@@ -1,0 +1,13 @@
+.jumbotron {
+	margin-top: 70px;
+	padding: 2rem;
+	color: #2c3e50;
+}
+
+.bg-dark {
+	background: #2c3e50 !important;
+}
+
+#navbarNav {
+	width: 10%;
+}
